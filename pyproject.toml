@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-sample-project-2021"
+version = "0.1.0"
+description = "A sample Python project using the latest technology in 2021"
+authors = ["Marie Klaus <marie.klaus@code.berlin>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/faymarie/python-sample-project-2021"
+keywords = ["hypermodern", "Python"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
